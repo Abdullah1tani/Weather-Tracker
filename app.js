@@ -1,42 +1,38 @@
 const express = require('express');
-const https = require('https');
-const bodyParser = require('body-parser');
+const axios = require('axios');
+const path = require('path');
 
 const app = express();
+app.set('view engine', 'ejs');
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(bodyParser.urlencoded({extended: true}))
+const weatherApiAcessToken = '49573f8789c590770a8c4f38376ab5b0';
 
-app.get("/", function(req, res){
+app.get('/', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+});
 
-    const query = "London";
-    const apiKey = "49573f8789c590770a8c4f38376ab5b0";
-    const unit = "metric";
+app.post('/', function(req, res){
+    const LocationAPI = `https://geocode.maps.co/search?street=${req.body.street}&city=${req.body.city}&state=${req.body.state}&postalcode=${req.body.postalCode}&country=${req.body.country}`;
 
-    const url = "https://api.openweathermap.org/data/2.5/forecast?q="+ query + "&appid=" + apiKey + "&units=" + unit;
-
-    const image = "https://openweathermap.org/img/wn/10d@2x.png";
-
-    https.get(url, function(res2){
-
-        res2.on("data", function(data){
-            const weather = JSON.parse(data);
-
-
-            const temp = weather.list[0].main.temp;
+    async function getTemperature()
+    {
+        try{
+            const locationAPIReq = await axios.get(LocationAPI);
+            const lat = locationAPIReq.data[0].lat;
+            const lon = locationAPIReq.data[0].lon;
             
-
-            res.write("<h1>The temperature in london is " + temp + "</h1>");
-        });
-
-    });
-
-    https.get(image, function(res3){
-        res3.on("data", function(data){
-            const img = JSON.parse(data);
-            res.write(img); 
-        });
-    });
-    res.send();
+            const weatherAPI = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiAcessToken}&units=metric`;
+            const weatherAPIReq = await axios.get(weatherAPI);
+            const temperature = weatherAPIReq.data.main.temp;
+            res.render('result', {temp: temperature});
+        }catch(err){
+            console.log(`Error: ${err}`);
+            res.send(`Error: ${err}`)
+        }
+    }
+    getTemperature();
 });
 
 app.listen(3000);
