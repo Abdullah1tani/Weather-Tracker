@@ -41,8 +41,7 @@ __We are only interested in displaying the current data:__
 The program retrieves coordinates (longitude and latitude) of the loction entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
 
 __samples used to test the program:__
-
-#    | Street      | City     | State | Postal Code | Country |
+\#    | Street      | City     | State | Postal Code | Country |
 :---:|:---:        |:---:     |:---:  |:---:        |:---:    |
 1    | 555 5th Ave | New York | NY    | 10017       | US      |
 2    | statue of liberty | - | - | - | - |
@@ -57,4 +56,11 @@ __samples used to test the program:__
 The program is composed of 3 pages:
 
 1. Main Page:
+ <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/d0cd7cf1-25db-4aae-b3b0-054ed4d51375">
  
+2. Result Page:
+<img width="598" alt="result" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
+
+3. Error Page:
+<img width="638" alt="error" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
+
