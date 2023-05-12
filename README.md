@@ -3,7 +3,7 @@ Weather Tracker shows the user live weather information about the location that 
 
 ## Introduction
 ---
-This program the current api's, libraries and frameworks:
+This program uses the current APIs, libraries, and frameworks:
 * [Geocode API](#location-api)
 * [OpenWeather API](#weather-api)
 * [Axios](https://axios-http.com/)
@@ -55,12 +55,12 @@ __samples used to test the program:__
 ---
 The program is composed of 3 pages:
 
-1. Main Page:
+#### __1. Main Page:__
  <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/d0cd7cf1-25db-4aae-b3b0-054ed4d51375">
  
-2. Result Page:
-<img width="598" alt="result" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
+#### __2. Result Page:__
+<img width="598" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
 
-3. Error Page:
-<img width="638" alt="error" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
+#### __3. Error Page:__
+<img width="638" alt="error page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
 
