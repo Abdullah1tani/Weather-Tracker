@@ -1,5 +1,6 @@
 # Weather Tracker
 Weather Tracker shows the user live weather information about the location that he entered.
+<br><br>
 
 ## Introduction
 ---
@@ -10,7 +11,7 @@ This program uses the current APIs, libraries, and frameworks:
 * [Path](https://nodejs.org/api/path.html)
 * [Node](https://nodejs.org/en)
 * [Express](https://expressjs.com/)
-
+<br><br>
 
 ### Location API
 ---
@@ -19,7 +20,7 @@ This program uses the current APIs, libraries, and frameworks:
 The API uses data from [Open Street Map](https://www.openstreetmap.org/) to find the latitude and longitude coordinates.
 
 In order to have a correct input, the user must go to [Open Street Map](https://www.openstreetmap.org/) and type in the location desired to look up it's specific informations.
-
+<br><br>
 ### Weather API
 ---
 [OpenWeather](https://openweathermap.org/api) API is used to retrieve weather data from specific coordinates (longitude and latitude).
@@ -35,6 +36,7 @@ __We are only interested in displaying the current data:__
 * Pressure
 * Humidity
 * Wind speed
+<br><br>
 
 ## Development
 ---
@@ -50,7 +52,7 @@ __samples used to test the program:__
 5    | Piazza del Duomo | Pisa | provincia di Pisa | 56126 | Italy |
 6    | Leaning Tower of Pisa | - | - | - | - |
 7    | - | london | - | - | - |
-
+<br>
 ### Program Structure:
 ---
 The program is composed of 3 pages:
