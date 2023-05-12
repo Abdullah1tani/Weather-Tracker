@@ -3,10 +3,9 @@ Weather Tracker shows the user live weather information about the location that 
 
 ## Introduction
 This application uses 2 APIs in order to show the user the correct informations about the live weather. 
-It retrieve coordinates (longitude and latitude) of the loction entered by the user using the [Location API](#location-api), 
-then it uses the coordinates and the weather API in order to find the live weather information about the location.  
+It retrieve coordinates (longitude and latitude) of the loction entered by the user using the [Location API](####Location-API), then it uses the coordinates and the weather API in order to find the live weather information about the location.  
 
-#### Location API {#location-api}
+#### Location API
 [Geocode](https://geocode.maps.co/) API is used to retrieve the coordinates (longitude and latitude) of the location entered by the user. 
 The API uses data from [Open Street Map](https://www.openstreetmap.org/) to find the latitude and longitude coordinates. 
 In order to have a correct input, the user must go to [Open Street Map](https://www.openstreetmap.org/) and type in the location desired to look up it's specific informations.
