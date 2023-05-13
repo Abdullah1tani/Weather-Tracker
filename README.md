@@ -169,7 +169,7 @@ If you made it till here, thank you for reading :D
 
 Check out my other personal projects:
 - [Cat animation](https://github.com/Abdullah1tani/cat-animation)
-- Card animation
+- [Card animation](https://github.com/Abdullah1tani/card-animation)
 
 
 
