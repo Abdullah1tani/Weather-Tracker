@@ -4,7 +4,6 @@ With its seamless integration of real-time data from trusted weather sources, th
 <br><br>
 
 ## Summary
----
  1 - Introduction 
    - What Is Weather Tracker ? 
    - Goals 
@@ -32,7 +31,6 @@ With its seamless integration of real-time data from trusted weather sources, th
  <br>
 
 ## 1. Introduction
----
 Weather Tracker shows the live weather information about a specific location chosen by the user.
 It accesses real-time weather data directly from reputable sources, ensuring accurate and timely information.
 <br>
@@ -47,7 +45,6 @@ The goals of creating this program are:
 <br>
 
 ## 2. Tools:
----
 This program uses the current APIs, libraries, and frameworks:
 * [Bootstrap](https://getbootstrap.com/)
 * [Geocode API](#location-api)
@@ -84,7 +81,6 @@ __We are only interested in displaying the current data:__
 <br><br>
 
 ## 3. Development
----
 The program retrieves coordinates (longitude and latitude) of the loction entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
 
 __samples used to test the program:__
@@ -113,7 +109,6 @@ To run Weather Tracker on your system, the following steps must be done in order
 4. Go to [localhost at port 3000](http://localhost:3000/) in your web browser
 
 ## 5. Program Structure
----
 The program is composed of 2 structures:
 * [Front-end](#front-end)
 * [Back-end](#back-end)
@@ -148,7 +143,6 @@ Back-end was built with the following tools:
 * [Express.js](https://expressjs.com/)
 
 ## 6. Conclusion:
----
 Building the Weather Tracker was a really fun and challenging experience. 
 The challenges that I encountered are as follow:
 
@@ -164,7 +158,6 @@ The challenges that I encountered are as follow:
    - Writing a well structured documentation
 
 ## 7. Other Projects:
----
 If you made it till here, thank you for reading :D
 Check out my other personal projects:
 - Cat animation
