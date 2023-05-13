@@ -17,12 +17,18 @@ With its seamless integration of real-time data from trusted weather sources, th
    - Samples
    - Program Preview
  
- 4 - Program Structure
+ 4 - Installation Guide
+ 
+ 5 - Program Structure
    - Front-end
      - Main Page
      - Result Page
      - Error Page
    - Back-end
+  
+ 6 - Conclusion
+ 
+ 7 - Other Projects
  <br>
 
 ## 1. Introduction
@@ -142,18 +148,28 @@ Back-end was built with the following tools:
 * [Express.js](https://expressjs.com/)
 
 ## 6. Conclusion:
+---
 Building the Weather Tracker was a really fun and challenging experience. 
 The challenges that I encountered are as follow:
 
- 1 - Front-end 
+#### 1 - Front-end 
    - Displaying the informations on the user's end 
    - Changing the CSS of the elements in the [Login Modal template](https://mdbootstrap.com/docs/standard/extended/login/) 
  
- 2 - Back-end
+#### 2 - Back-end
    - Finding the right API for the [location API](#location-api)
    - Posting requests to the [location API](#location-api)
 
- 3 - Other
+#### 3 - Other
    - Writing a well structured documentation
+
+## 7. Other Projects:
+---
+If you made it till here, thank you for reading :D
+Check out my other personal projects:
+- Cat animation
+- Card animation
+
+
 
 
