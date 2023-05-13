@@ -1,12 +1,12 @@
 body{
     margin-top: 10%;
-    background-color: rgb(236, 222, 222);
+    background-color: rgb(107, 109, 195);
     color: rgb(236, 222, 222);
 }
 
 .container{
     border-radius: 20px;
-    background-color: #555;
+    background-color: rgb(52, 58, 64);
     width: 600px;
     padding: 30px;
 }
