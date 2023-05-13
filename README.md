@@ -166,6 +166,7 @@ The challenges that I encountered are as follow:
 
 ## 7. Other Projects:
 If you made it till here, thank you for reading :D
+
 Check out my other personal projects:
 - [Cat animation](https://github.com/Abdullah1tani/cat-animation)
 - Card animation
