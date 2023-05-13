@@ -10,8 +10,8 @@ This program uses the current APIs, libraries, and frameworks:
 * [OpenWeather API](#weather-api)
 * [Axios](https://axios-http.com/)
 * [Path](https://nodejs.org/api/path.html)
-* [Node](https://nodejs.org/en)
-* [Express](https://expressjs.com/)
+* [Node.js](https://nodejs.org/en)
+* [Express.js](https://expressjs.com/)
 <br><br>
 
 ### Location API
@@ -55,32 +55,38 @@ __samples used to test the program:__
 7    | - | london | - | - | - |
 <br>
 
-### Program Structure:
+## Program Structure:
 ---
 The program is composed of 2 structures:
 * [Front-end](#front-end)
 * [Back-end](#back-end)
+<br>
 
-#### Front-end:
-We used the [Login Modal bootstrap template](https://mdbootstrap.com/docs/standard/extended/login/) in order to implement the front-end, it is composed of 3 pages:
+### Front-end:
+---
+Front-end was built using [Login Modal template](https://mdbootstrap.com/docs/standard/extended/login/), HTML and CSS, it is composed of 3 pages:
 
-#### __1. Main Page:__
+#### __1. Main Page:__ `index.html`
 The first page that the user sees when he start the program. This will be the page that he will enter the informations about the desired location that he wish to receive information about it's weather.<br>
 
  <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/d0cd7cf1-25db-4aae-b3b0-054ed4d51375">
 
-#### __2. Result Page:__
+#### __2. Result Page:__ `result.ejs`
 After the user clicks "Search" in the [main page](#1-main-page), the informations about the weather for the specified location by the user will show up.<br>
 
 <img width="598" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
 
-#### __3. Error Page:__
+#### __3. Error Page:__ `error.ejs`
 If the location that the user entered in the [main page](#1-main-page) does not exist, this page will show up instead of [result page](#2-result-page) with the current error `TypeError: Cannot read properties of undefined (reading 'lat')`. <br>
 
 <img width="638" alt="error page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
+<br>
 
-#### Back-end:
-
-
-
+### Back-end:
+---
+Back-end was built with the following tools:
+* [Axios](https://axios-http.com/)
+* [Path](https://nodejs.org/api/path.html)
+* [Node.js](https://nodejs.org/en)
+* [Express.js](https://expressjs.com/)
 
