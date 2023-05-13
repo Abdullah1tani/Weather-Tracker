@@ -1,8 +1,46 @@
 # Weather Tracker
-Weather Tracker shows the user live weather information about the location that he entered.
+The Weather Tracker program is designed to provide accurate and up-to-date weather information.
+With its seamless integration of real-time data from trusted weather sources, the application offers a reliable and precise weather tracking experience.
 <br><br>
 
-## Introduction
+## Summary
+---
+ 1 - Introduction 
+   - What Is Weather Tracker ? 
+   - Goals 
+ 
+ 2 - Tools
+   - Location API
+   - Weather API
+
+ 3 - Development
+   - Samples
+   - Program Preview
+ 
+ 4 - Program Structure
+   - Front-end
+     - Main Page
+     - Result Page
+     - Error Page
+   - Back-end
+ <br>
+
+## 1. Introduction
+---
+Weather Tracker shows the live weather information about a specific location chosen by the user.
+It accesses real-time weather data directly from reputable sources, ensuring accurate and timely information.
+<br>
+
+### Goals:
+---
+The goals of creating this program are:
+* Familiarize with node.js and express.js
+* Gain knowledge in using APIs
+* Understand HTTP post and get requests
+* Improve writing skills in Markdown syntax
+<br>
+
+## 2. Tools:
 ---
 This program uses the current APIs, libraries, and frameworks:
 * [Bootstrap](https://getbootstrap.com/)
@@ -39,7 +77,7 @@ __We are only interested in displaying the current data:__
 * Wind speed
 <br><br>
 
-## Development
+## 3. Development
 ---
 The program retrieves coordinates (longitude and latitude) of the loction entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
 
@@ -61,7 +99,14 @@ https://github.com/Abdullah1tani/WeatherProject/assets/98557354/95b1e526-f973-48
 
 <br>
 
-## Program Structure:
+## 4. Installation Guide
+In order to run the program the following steps must be done in order:
+1. Install [Node.js](https://nodejs.org/en)
+2. Clone the repository
+
+
+
+## 5. Program Structure
 ---
 The program is composed of 2 structures:
 * [Front-end](#front-end)
