@@ -55,6 +55,12 @@ __samples used to test the program:__
 7    | - | london | - | - | - |
 <br>
 
+### Program Preview:
+---
+https://github.com/Abdullah1tani/WeatherProject/assets/98557354/95b1e526-f973-483a-b9c3-d15c3321b27e
+
+<br>
+
 ## Program Structure:
 ---
 The program is composed of 2 structures:
