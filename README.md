@@ -100,11 +100,11 @@ https://github.com/Abdullah1tani/WeatherProject/assets/98557354/95b1e526-f973-48
 <br>
 
 ## 4. Installation Guide
-In order to run the program the following steps must be done in order:
+To run Weather Tracker on your system, the following steps must be done in order:
 1. Install [Node.js](https://nodejs.org/en)
-2. Clone the repository
-
-
+2. Clone the repository using this link: https://github.com/Abdullah1tani/WeatherProject.git
+3. Run `node app.js` in terminal
+4. Go to [localhost at port 3000](http://localhost:3000/) in your web browser
 
 ## 5. Program Structure
 ---
@@ -140,4 +140,20 @@ Back-end was built with the following tools:
 * [Path](https://nodejs.org/api/path.html)
 * [Node.js](https://nodejs.org/en)
 * [Express.js](https://expressjs.com/)
+
+## 6. Conclusion:
+Building the Weather Tracker was a really fun and challenging experience. 
+The challenges that I encountered are as follow:
+
+ 1 - Front-end 
+   - Displaying the informations on the user's end 
+   - Changing the CSS of the elements in the [Login Modal template](https://mdbootstrap.com/docs/standard/extended/login/) 
+ 
+ 2 - Back-end
+   - Finding the right API for the [location API](#location-api)
+   - Posting requests to the [location API](#location-api)
+
+ 3 - Other
+   - Writing a well structured documentation
+
 
