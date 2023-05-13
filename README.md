@@ -4,30 +4,35 @@ With its seamless integration of real-time data from trusted weather sources, th
 <br><br>
 
 ## Summary
- 1 - Introduction 
+ 1 - [Introduction](#1-introduction)
    - What Is Weather Tracker ? 
-   - Goals 
+   - [Goals](#goals) 
  
- 2 - Tools
-   - Location API
-   - Weather API
+ 2 - [Tools](#2-tools)
+   - [Location API](#location-api)
+   - [Weather API](#weather-api)
 
- 3 - Development
-   - Samples
-   - Program Preview
+ 3 - [Development](#3-development)
+   - [Samples](#samples)
+   - [Program Preview](#program-preview)
  
- 4 - Installation Guide
+ 4 - [Installation Guide](#4-installation-guide)
  
- 5 - Program Structure
-   - Front-end
-     - Main Page
-     - Result Page
-     - Error Page
-   - Back-end
+ 5 - [Program Structure](#5-program-structure)
+   - [Front-end](#front-end)
+     - [Main Page](#1-main-page-indexhtml)
+     - [Result Page](#2-result-page-resultejs)
+     - [Error Page](#3-error-page-errorejs)
+   - [Back-end](#back-end)
   
- 6 - Conclusion
- 
- 7 - Other Projects
+ 6 - [Conclusion](#6-conclusion)
+   - Challenges encountered       
+        - [Front-end](#1---front-end)
+        - [Back-end](#2---back-end)
+        - [Other](#3---other)
+
+ 7 - [Other Projects](#7-other-projects)
+
  <br>
 
 ## 1. Introduction
@@ -83,6 +88,8 @@ __We are only interested in displaying the current data:__
 ## 3. Development
 The program retrieves coordinates (longitude and latitude) of the loction entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
 
+### Samples:
+---
 __samples used to test the program:__
 \#    | Street      | City     | State | Postal Code | Country |
 :---:|:---:        |:---:     |:---:  |:---:        |:---:    |
@@ -160,7 +167,7 @@ The challenges that I encountered are as follow:
 ## 7. Other Projects:
 If you made it till here, thank you for reading :D
 Check out my other personal projects:
-- Cat animation
+- [Cat animation](https://github.com/Abdullah1tani/cat-animation)
 - Card animation
 
 
