@@ -5,6 +5,7 @@ Weather Tracker shows the user live weather information about the location that 
 ## Introduction
 ---
 This program uses the current APIs, libraries, and frameworks:
+* [Bootstrap](https://getbootstrap.com/)
 * [Geocode API](#location-api)
 * [OpenWeather API](#weather-api)
 * [Axios](https://axios-http.com/)
@@ -53,16 +54,33 @@ __samples used to test the program:__
 6    | Leaning Tower of Pisa | - | - | - | - |
 7    | - | london | - | - | - |
 <br>
+
 ### Program Structure:
 ---
-The program is composed of 3 pages:
+The program is composed of 2 structures:
+* [Front-end](#front-end)
+* [Back-end](#back-end)
+
+#### Front-end:
+We used the [Login Modal bootstrap template](https://mdbootstrap.com/docs/standard/extended/login/) in order to implement the front-end, it is composed of 3 pages:
 
 #### __1. Main Page:__
+The first page that the user sees when he start the program. This will be the page that he will enter the informations about the desired location that he wish to receive information about it's weather.<br>
+
  <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/d0cd7cf1-25db-4aae-b3b0-054ed4d51375">
- 
+
 #### __2. Result Page:__
+After the user clicks "Search" in the [main page](#1-main-page), the informations about the weather for the specified location by the user will show up.<br>
+
 <img width="598" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
 
 #### __3. Error Page:__
+If the location that the user entered in the [main page](#1-main-page) does not exist, this page will show up instead of [result page](#2-result-page) with the current error `TypeError: Cannot read properties of undefined (reading 'lat')`. <br>
+
 <img width="638" alt="error page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
+
+#### Back-end:
+
+
+
 
