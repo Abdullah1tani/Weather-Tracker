@@ -69,17 +69,17 @@ Front-end was built using [Login Modal template](https://mdbootstrap.com/docs/st
 #### __1. Main Page:__ `index.html`
 The first page that the user sees when he start the program. This will be the page that he will enter the informations about the desired location that he wish to receive information about it's weather.<br>
 
- <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/d0cd7cf1-25db-4aae-b3b0-054ed4d51375">
+<img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/c0610226-9b54-4b2e-b9a8-b3d1b76c8bb9">
 
 #### __2. Result Page:__ `result.ejs`
 After the user clicks "Search" in the [main page](#1-main-page), the informations about the weather for the specified location by the user will show up.<br>
 
-<img width="598" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/8bfeefee-9f2e-455e-924b-500fee74190e">
+<img width="636" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/12b1ccfb-cb0f-4c8b-9448-78dad4c5b02c">
 
 #### __3. Error Page:__ `error.ejs`
 If the location that the user entered in the [main page](#1-main-page) does not exist, this page will show up instead of [result page](#2-result-page) with the current error `TypeError: Cannot read properties of undefined (reading 'lat')`. <br>
 
-<img width="638" alt="error page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/43446b84-b00f-4b6c-8e54-19ad2276a9e5">
+<img width="627" alt="error page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/ebc54ec7-633d-4c3e-861a-824cf7356b83">
 <br>
 
 ### Back-end:
