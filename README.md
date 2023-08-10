@@ -1,11 +1,11 @@
 # Weather Tracker
 The Weather Tracker program is designed to provide accurate and up-to-date weather information.
-With its seamless integration of real-time data from trusted weather sources, the application offers a reliable and precise weather tracking experience.
+With its seamless integration of real-time data from trusted weather sources, the application offers a reliable and precise weather-tracking experience.
 <br><br>
 
 ## Summary
  1 - [Introduction](#1-introduction)
-   - What Is Weather Tracker ? 
+   - What Is Weather Tracker? 
    - [Goals](#goals) 
  
  2 - [Tools](#2-tools)
@@ -66,7 +66,7 @@ This program uses the current APIs, libraries, and frameworks:
 
 The API uses data from [Open Street Map](https://www.openstreetmap.org/) to find the latitude and longitude coordinates.
 
-In order to have a correct input, the user must go to [Open Street Map](https://www.openstreetmap.org/) and type in the location desired to look up it's specific informations.
+In order to have a correct input, the user must go to [Open Street Map](https://www.openstreetmap.org/) and type in the location desired to look up its specific information.
 <br><br>
 ### Weather API
 ---
@@ -75,7 +75,7 @@ In order to have a correct input, the user must go to [Open Street Map](https://
 __We are only interested in displaying the current data:__
 * Name of location
 * Weather description
-* Coordiantes (longitude and latitude)
+* Coordinates (longitude and latitude)
 * Temperature
 * Feels like temperature 
 * Lowest temperature 
@@ -86,7 +86,7 @@ __We are only interested in displaying the current data:__
 <br><br>
 
 ## 3. Development
-The program retrieves coordinates (longitude and latitude) of the loction entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
+The program retrieves coordinates (longitude and latitude) of the location entered by the user using the [location API](#location-api), then it uses the coordinates and the [weather API](#weather-api) in order to find the live weather information about the location.
 
 ### Samples:
 ---
@@ -126,12 +126,12 @@ The program is composed of 2 structures:
 Front-end was built using [Login Modal template](https://mdbootstrap.com/docs/standard/extended/login/), HTML and CSS, it is composed of 3 pages:
 
 #### __1. Main Page:__ `index.html`
-The first page that the user sees when he start the program. This will be the page that he will enter the informations about the desired location that he wish to receive information about it's weather.<br>
+The first page that the user sees when he starts the program. This will be the page where he will enter the information about the desired location that he wishes to receive information about its weather.<br>
 
 <img width="492" alt="main page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/c0610226-9b54-4b2e-b9a8-b3d1b76c8bb9">
 
 #### __2. Result Page:__ `result.ejs`
-After the user clicks "Search" in the [main page](#1-main-page), the informations about the weather for the specified location by the user will show up.<br>
+After the user clicks "Search" on the [main page](#1-main-page), the information about the weather for the specified location by the user will show up.<br>
 
 <img width="636" alt="result page" src="https://github.com/Abdullah1tani/WeatherProject/assets/98557354/12b1ccfb-cb0f-4c8b-9448-78dad4c5b02c">
 
@@ -151,10 +151,10 @@ Back-end was built with the following tools:
 
 ## 6. Conclusion:
 Building the Weather Tracker was a really fun and challenging experience. 
-The challenges that I encountered are as follow:
+The challenges that I encountered are as follows:
 
 #### 1 - Front-end 
-   - Displaying the informations on the user's end 
+   - Displaying the information on the user's end 
    - Changing the CSS of the elements in the [Login Modal template](https://mdbootstrap.com/docs/standard/extended/login/) 
  
 #### 2 - Back-end
@@ -162,7 +162,7 @@ The challenges that I encountered are as follow:
    - Posting requests to the [location API](#location-api)
 
 #### 3 - Other
-   - Writing a well structured documentation
+   - Writing a well-structured documentation
 
 ## 7. Other Projects:
 If you made it till here, thank you for reading :D
