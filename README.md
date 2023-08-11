@@ -167,10 +167,10 @@ The challenges that I encountered are as follows:
 ## 7. Other Projects:
 If you made it till here, thank you for reading :D
 
-Check out my other personal projects:
+Check out my other projects:
 - [Cat animation](https://github.com/Abdullah1tani/cat-animation)
 - [Card animation](https://github.com/Abdullah1tani/card-animation)
-
+- [School Donations](https://github.com/Abdullah1tani/School-donations)
 
 
 
