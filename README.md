@@ -165,7 +165,7 @@ The challenges that I encountered are as follows:
    - Writing a well-structured documentation
 
 ## 7. Other Projects:
-If you made it till here, thank you for reading :D
+If you made it till here, thank you for reading
 
 Check out my other projects:
 - [Cat animation](https://github.com/Abdullah1tani/cat-animation)
