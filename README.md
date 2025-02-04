@@ -4,7 +4,7 @@ The Weather Tracker program is designed to provide accurate and up-to-date weath
 With its seamless integration of real-time data from trusted weather sources, the application offers a reliable and precise weather-tracking experience.
 <br>
 
-**You can test the app yourself by clicking on this [link](https://v5v5g2-3000.csb.app/)!**
+**You can test the app yourself by clicking on this [link](https://2mf9p9-8080.csb.app/)!**
 
 ## Summary
  1 - [Introduction](#1-introduction)
