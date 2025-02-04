@@ -1,13 +1,15 @@
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
+require('dotenv').config(); 
 
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const weatherApiAcessToken = '49573f8789c590770a8c4f38376ab5b0';
+const weatherApiAcessToken = process.env.WEATHER_API_KEY;
+const GeoCodeApiAccessToken = process.env.GEOCODE_API_KEY;
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
@@ -15,8 +17,7 @@ app.get('/', function(req, res){
 
 app.post('/', function(req, res){
     //geocode api used to find coordinates (latitude and longitude) of the user's input location
-    const LocationAPI = `https://geocode.maps.co/search?street=${req.body.street}&city=${req.body.city}&state=${req.body.state}&postalcode=${req.body.postalCode}&country=${req.body.country}`;
-
+    const LocationAPI = `https://api.locationiq.com/v1/autocomplete?key=${GeoCodeApiAccessToken}&q=${req.body.street},${req.body.city},${req.body.state},${req.body.postalCode},${req.body.country}`
     async function getWeatherInfo()
     {
         try{
