@@ -112,8 +112,8 @@ https://github.com/Abdullah1tani/WeatherProject/assets/98557354/95b1e526-f973-48
 To run Weather Tracker on your system, the following steps must be done in order:
 1. Install [Node.js](https://nodejs.org/en)
 2. Clone the repository using this link: https://github.com/Abdullah1tani/WeatherProject.git
-3. Run the following command to install all the required node moduels: `npm install axios@1.4.0 body-parser@1.20.1 dotenv@16.4.7 ejs@3.1.9 express@4.18.2` 
-4. Run `node app.js` in terminal
+3. Run `npm install` to install all the required node modules
+4. Run `node app.js` in terminal to start the application
 5. Go to [localhost at port 3000](http://localhost:3000/) in your web browser
 
 ## 5. Program Structure
@@ -154,7 +154,7 @@ Back-end was built with the following tools:
 * [Express.js](https://expressjs.com/)
 
 ## 6. Conclusion:
-Building the Weather Tracker was a really fun and challenging experience. 
+Building the Weather Tracker was an enjoyable and challenging experience. 
 The challenges that I encountered are as follows:
 
 #### 1 - Front-end 
