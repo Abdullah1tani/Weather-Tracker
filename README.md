@@ -122,7 +122,7 @@ The program retrieves coordinates (longitude and latitude) of the location enter
 7 | 5200 Robinson St | Niagara Falls | Ontario | L2G 2A2 | Canada |
 8 | Niagara Falls | - | - | - | - |
 9 | Bridge St | London | - | | SW1A 2PW | United Kingdom |
-10 | - | london | - | - | - |
+10 | - | London | - | - | - |
 <br>
 
 ## 4. Installation Guide
